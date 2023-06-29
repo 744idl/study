@@ -30,4 +30,4 @@ for i, (train_index, test_index) in enumerate(skf.split(df_X, df_y)):
     print(classification_report(df_y_test, df_yhat_test))
     print(roc_auc_score(df_y_test, df_yprob_test, multi_class="ovr"))
 
-
+#add v2
